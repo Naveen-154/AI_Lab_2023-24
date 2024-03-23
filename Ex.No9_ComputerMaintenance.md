@@ -15,7 +15,31 @@ Write a Prolog program to build a computer maintenance expert system.
      
 ### Program:
 
-
+```
+fault(printer_head) :- 
+ problem(not_printing), 
+ problem(missing_dots), 
+ problem(nonuniform_printing). 
+fault(ribbon) :- 
+ problem(not_printing), 
+ problem(missing_dots), 
+ problem(spread_ink). 
+fault(paper) :- 
+ problem(not_printing), 
+ problem(paper_jam), 
+ problem(out_of_paper). 
+fault(motherboard) :- 
+ problem(long_beep), 
+ problem(short_beep). 
+fault(hard_disc) :- 
+ problem(two_short_beeps), 
+ problem(blank_display). 
+problem(not_printing). 
+problem(missing_dots). 
+problem(spread_ink). 
+problem(two_short_beeps). 
+problem(blank_display).
+```
 
 
 
@@ -27,6 +51,7 @@ Write a Prolog program to build a computer maintenance expert system.
 
 ### Output:
 
+![image](https://github.com/Naveen-154/AI_Lab_2023-24/assets/114643271/a91392c0-9f20-432c-bc10-57b58b843c1b)
 
 
 ### Result:
