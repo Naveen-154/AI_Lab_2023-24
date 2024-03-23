@@ -26,7 +26,8 @@ factorial(A,B) :-
 ### Output:
 
 
-![WhatsApp Image 2024-03-09 at 16 06 01_56de2965](https://github.com/Naveen-154/AI_Lab_2023-24/assets/114643271/7fca0021-936b-45cf-a284-517a41f4e981)
+![WhatsApp Image 2024-03-23 at 15 19 20_0c7220df](https://github.com/Naveen-154/AI_Lab_2023-24/assets/114643271/55fea7ca-c67d-465b-9745-f5f61c844ba4)
+
 
 
 
